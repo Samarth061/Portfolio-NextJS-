@@ -32,10 +32,6 @@ export default function About() {
         currently looking for a{" "}
         <span className="font-medium ">full-time position</span> as a{" "}
         <span className="font-semibold">software developer</span>.
-        {/**My core stack is{" "}
-    <span className="font-medium">
-      React, Next.js, Node.js, and MongoDB
-    </span>*/}
       </p>
 
       <p>
@@ -46,18 +42,14 @@ export default function About() {
         <span className="font-bold ">AlphaZero</span>, I am fascinated by AI and
         aim to build integrated solutions that improve quality of life for
         others.
-        {/* others. Let’s{" "}
-        <span className="text-green-500">create something extraordinary</span>{" "}
-        together! */}
       </p>
     </motion.section>
   );
 }
 
-// About me
-
-/* <span className="font-bold"></span>I’m Samarth Shah, a recent graduate with a BS in Computer Engineering, aspiring to become a software engineer. 
-        I have hands-on experience leading projects like MirrorSync, a smart mirror system integrating PostgreSQL, and NaviX, an indoor navigation robot 
-        using ROS and SLAM. Proficient in Java, Python, C, and tools like Linux and SQL, 
-        I’m passionate about building innovative, scalable software solutions. My leadership roles and 
-        technical expertise position me to tackle complex challenges and deliver impactful results. */
+{
+  /**My core stack is{" "}
+    <span className="font-medium">
+      React, Next.js, Node.js, and MongoDB
+    </span>*/
+}
