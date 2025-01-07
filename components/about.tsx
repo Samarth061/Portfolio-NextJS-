@@ -46,10 +46,3 @@ export default function About() {
     </motion.section>
   );
 }
-
-{
-  /**My core stack is{" "}
-    <span className="font-medium">
-      React, Next.js, Node.js, and MongoDB
-    </span>*/
-}
