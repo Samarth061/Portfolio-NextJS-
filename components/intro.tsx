@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -60,11 +60,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Samarth.</span> I'm a{" "}
-        <span className="font-bold">recent undergraduate student </span>{" "}
-        learning <span className="font-bold">web development</span>. I enjoy
-        building <span className="italic">IoT products</span>. I am currently
-        learning <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hi , I'm Samarth.</span> A recent,{" "}
+        <span className="font-bold">Computer Engineering graduate student</span>{" "}
+        passionate about{" "}
+        <span className="font-bold">IoT and web development</span>. I am
+        currently exploring <span className="italic">React and NextJS</span> to
+        build exciting user-friendly application.{" "}
+        <span className="underline">Let's bring ideas to life</span>!
       </motion.h1>
 
       <motion.div

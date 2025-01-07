@@ -1,10 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { GiMirrorMirror } from "react-icons/gi";
+import { GiTrackedRobot } from "react-icons/gi";
 import { LuGraduationCap } from "react-icons/lu";
-import NaviXImg from "@/public/NaviX-robot.jpg";
-import MirrorSyncImg from "@/public/MirrorSync.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import NaviXImg from "@/public/NaviXrobot.jpg";
+import MirrorSyncImg from "@/public/Mirror-sync(2).jpg";
 
 export const links = [
   {
@@ -35,73 +34,62 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Secured MirrorSync funding",
+    location: "Mankato, MN",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Secured MirrorSync funding from Undergraduate Research Center(URC) and worked on it for an year.",
+    icon: React.createElement(GiMirrorMirror),
+    date: "August 2023",
+  },
+  {
+    title: "Secured NaviX funding",
+    location: "Mankato, MN",
+    description:
+      "Recieved funding from URC and Electrical and Computer Engineering Technology (ECET) Department and currently working on it.",
+    icon: React.createElement(GiTrackedRobot),
+    date: "May 2024",
+  },
+  {
+    title: "Graduated College",
+    location: "Mankato, MN",
+    description:
+      "Graduated from MNSU with a BS in Computer Engineering and started focusing on Web Development to explore future avenues.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Dec 2024",
   },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  
 ] as const;
 
 export const projectsData = [
   {
     title: "NaviX",
     description:
-      "I worked as lead on this project to make an automated navigational robot.",
-    tags: ["ROS", "Python", "Power-Systems"],
+      " Led development of an automated indoor navigation robot integrating ROS, SLAM, and Raspberry Pi.",
+    tags: ["ROS", "Python", "Power-Systems", "Linux", "Raspi"],
     imageUrl: NaviXImg,
   },
   {
     title: "MirrorSync",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["Python", "PostgreSQL", "Tkinter", "IoT"],
+      " Led development of website controlled Smart-Mirror. Served as the project leader, developed GUI, maintained database and designed the project.",
+    tags: ["Python", "PostgreSQL", "Tkinter", "IoT", "Raspi"],
     imageUrl: MirrorSyncImg,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Python",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "VScode",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "C",
 ] as const;

@@ -20,40 +20,44 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        With a fascination towards <span className="font-medium ">IoT</span>, I
+        worked on building practical and innovative solutions. I have brought my
+        ideas to life through projects like{" "}
+        <span className="font-medium ">MirrorSync</span> and{" "}
+        <span className="font-medium ">NaviX</span>, and I especially enjoy the
+        problem-solving aspect of building these systems. I am currently
+        exploring <span className="underline ">web development</span> to create
+        robust websites that can help me create more interesting systems in the
+        future. I am always eager to learn about new technologies and I am
+        currently looking for a{" "}
+        <span className="font-medium ">full-time position</span> as a{" "}
+        <span className="font-semibold">software developer</span>.
+        {/**My core stack is{" "}
+    <span className="font-medium">
+      React, Next.js, Node.js, and MongoDB
+    </span>*/}
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Beyond coding, I enjoy <span className="italic">chess</span>,{" "}
+        <span className="font-medium italic">tennis</span>, and exploring the
+        wonders of <span className="font-medium italic">astronomy</span>.
+        Inspired by breakthroughs like{" "}
+        <span className="font-bold ">AlphaZero</span>, I am fascinated by AI and
+        aim to build integrated solutions that improve quality of life for
+        others.
+        {/* others. Let’s{" "}
+        <span className="text-green-500">create something extraordinary</span>{" "}
+        together! */}
       </p>
     </motion.section>
   );
 }
 
 // About me
-{
-  /* <span className="font-bold"></span>I’m Samarth Shah, a recent graduate with a BS in Computer Engineering, aspiring to become a software engineer. 
+
+/* <span className="font-bold"></span>I’m Samarth Shah, a recent graduate with a BS in Computer Engineering, aspiring to become a software engineer. 
         I have hands-on experience leading projects like MirrorSync, a smart mirror system integrating PostgreSQL, and NaviX, an indoor navigation robot 
         using ROS and SLAM. Proficient in Java, Python, C, and tools like Linux and SQL, 
         I’m passionate about building innovative, scalable software solutions. My leadership roles and 
         technical expertise position me to tackle complex challenges and deliver impactful results. */
-}

@@ -10,13 +10,14 @@ import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
+//Currently using this section as a Timeline
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
   return (
     <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:40">
-      <SectionHeading>My Experience</SectionHeading>
+      <SectionHeading>My Timeline</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
