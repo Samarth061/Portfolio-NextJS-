@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import NaviXImg from "@/public/NaviX.png";
+import NaviXImg from "@/public/NaviX-robot.jpg";
 import MirrorSyncImg from "@/public/MirrorSync.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
