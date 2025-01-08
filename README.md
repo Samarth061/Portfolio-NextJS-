@@ -29,7 +29,7 @@ This portfolio is designed to present my journey as a Software Developer. It inc
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, React.js, Next.js
+- **Frontend:** HTML, CSS, Typescript, Next.js
 - **Styling:** Tailwind CSS, Framer Motion
 - **Hosting:** Vercel
 
